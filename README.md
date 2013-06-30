@@ -12,7 +12,7 @@ Some modified code included <br />
 **Yusuke Yamamoto (and others I believe?)**<br />
 Twitter4j is a java library that does the connection and transaction handling between Processing and Twitter.  <br />
 This is what enables simple connection to harvest the tweet content, and to send tweets, both from withing the Processing brain. AWESOME. <br />
-github.com/yusuke/twitter4j/network
+https://github.com/yusuke/twitter4j/network
 
 <h2>GURU text-to-speech</h2>
 
@@ -32,4 +32,4 @@ www.sojamo.de/libraries/controlP5/
 
 **JER THORP**  <br />
 The visualisation of words on screen is based on an example sketch by Jer. <br />
-blog.blprnt.com/blog/blprnt/updated-quick-tutorial-processing-twitter 
+http://blog.blprnt.com/blog/blprnt/updated-quick-tutorial-processing-twitter 
