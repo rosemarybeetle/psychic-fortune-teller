@@ -1,7 +1,7 @@
 // -----------------------
 // ----
 // PSYCHIC FORTUNE TELLER
-// @rosemarybeetle 2013
+// @rosemarybeetle 30 June 2013
 // http://makingweirdstuff.blogspot.com
 // version 9
 /* -----------------------
