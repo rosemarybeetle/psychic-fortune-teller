@@ -1,9 +1,11 @@
-Psychic Fortune Tteller
+Psychic Fortune Teller
 ======================
 
 The release version of the Processing brain and Arduino sketch for a Twitter-reading automaton.
 
-Acknowledgments
+<h1> Acknowledgments</h1>
+I am not listing their actual code (especially libraries). See originatig clever people's sits for latest versions
+Some modified code included
 
 **Twitter4j**
 
