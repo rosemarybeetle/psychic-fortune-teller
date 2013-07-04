@@ -487,7 +487,7 @@ void grabTweets() {
     // <<<<<<<<< end user text log file
   
 // >>>>>> create log file of hashtags 
-    for (int jj =0;jj<usernames.size(); jj++)
+    for (int jj =0;jj<hashtags.size(); jj++)
     {
       uberHashtags  = append (uberHashtags, "#"+hashtags.get(jj).toString());
       
