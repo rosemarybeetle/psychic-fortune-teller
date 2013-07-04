@@ -116,7 +116,8 @@ int columnPos2_X = 310;
 // >>>>>>  grabTweets Timer settings  >>>>>>>>>>>
 float grabTime = millis();
 float timeNow = millis();
-String stamp = year()+"-"+month()+"-"+day()+"-"+hour()+"-"+minute();// <<<<<<
+String stamp = "";
+
 
 // >>>>>> GUI library and settings
 import controlP5.*; // import the GUI library
@@ -147,6 +148,7 @@ float delayCheck; //delayCheck; // THIS IS IMPORTANT. it i what stops overpollin
 
 
 void setup() {
+  stamper ();
   tts = new TTS(); // create text to speech instance
   tts.speak(adminSettings[8]);// preloaded, not web
   println (" adminSettings 1 " + adminSettings); // @@ DEBUG STUFF
@@ -474,6 +476,7 @@ void grabTweets() {
     }
     uberWords  = append (uberWords, "WORDS UPDATE REFRESH COMPLETED");
     uberWords  = append (uberWords, " ");
+    stamper();
     saveStrings ("words-"+stamp+".txt", uberWords);
     // <<<<<< end word text log file
     
@@ -814,4 +817,6 @@ void readFortune (String tweetText)
  }
  */
  
- 
+void stamper () {
+stamp = year()+"-"+month()+"-"+day()+"-"+hour()+"-"+minute();// <<<<<<
+} 
